@@ -29,7 +29,7 @@ and open the template in the editor.
 
 .resume-section {
     padding: 5px;
-    border: .5px black solid;
-    border-collapse: collapse;
+    border-top: 1px solid black;
+
 }
 

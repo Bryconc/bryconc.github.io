@@ -5,45 +5,7 @@
     <body id="page-top">
         {% include nav.html %}
         {% include about_header.html %}
-        <div class="container">
-            <section id="resume">
-                <section class="resume-section">
-                    <h2 class="section-heading">Education</h2>
-                    <div class="row">
-                        <p class="col-lg-4">2013-2017</p>
-                        <div class="col-lg-8"><a href="http://www.appstate.edu/about/">Appalachian State University</a> <span class="pull-right">Cumulative GPA: 3.95</span><br>
-                            Bachelor of Science in Computer Science <span class="pull-right">Major GPA: 4.00</span><br>
-                            Minors: Film Studies, Mathematics<br><br>
-
-                            <h4>Highlighted Courses</h4>
-                            <ul>
-                                <li>Client- and Server-side Web Programming</li>
-                                <li>Computer Systems I & II</li>
-                                <li>Cybersecurity Fundamentals</li>
-                                <li>Linear Algebra</li>
-                                <li>Software Engineering</li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </section>
-                <section class="resume-section">
-                    <h2 class="section-heading">Experience</h2>
-                    <div class="row">
-                        <p class="col-lg-4">2014-present</p>
-                        <div class="col-lg-8"><strong>ST Instructional Assistant</strong>, <a href="http://compsci.appstate.edu/">Appalachian State University Computer Science Department</a> <br>
-                            <em>Courses: Introduction to Computer Systems, Software Engineering</em>
-
-                            <ul>
-                                <li>Collaborated with course professor to refine assignments to best represent material and appeal to student learning styles</li>
-                                <li>Critiqued student submitted material, and provided examples of implemented concepts</li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </section>
-            </section>
-        </div>
+        {% include resume.html %}
         <div class="container">
             <br>
             <h2 class="section-heading">Computer Science Through Gaming</h2>
@@ -58,6 +20,8 @@
                 the existing code structures. Later, I began to understand these structures and the language itself, opening the door for the field of Computer Science.
             </p>
         </div>
+        
+        {% include footer.html %}
 
         {% include scripts.html %}
     </body>

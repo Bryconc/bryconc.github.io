@@ -8,6 +8,11 @@ body {
     @include serif-font;
 }
 
+footer {
+    border-top: 1px solid black;
+    padding-top: 5px;
+}
+
 hr {
     border-color: $theme-primary;
     border-width: 3px;
