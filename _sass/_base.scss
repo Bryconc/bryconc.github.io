@@ -6,6 +6,7 @@ body {
 
 body {
     @include serif-font;
+    padding-top: 70px;
 }
 
 footer {
@@ -27,7 +28,7 @@ a {
     @include transition-all;
     color: $theme-primary;
     &:hover,
-    &:focus {
+        &:focus {
         color: darken($theme-primary, 10%);
     }
 }
@@ -48,12 +49,12 @@ p {
 }
 
 .bg-primary {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,9fd8ef+0,bfe8f9+21,2ab0ed+100 */
-background: #e4f5fc; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  #e4f5fc 0%, #9fd8ef 0%, #bfe8f9 21%, #2ab0ed 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  #e4f5fc 0%,#9fd8ef 0%,#bfe8f9 21%,#2ab0ed 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  #e4f5fc 0%,#9fd8ef 0%,#bfe8f9 21%,#2ab0ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,9fd8ef+0,bfe8f9+21,2ab0ed+100 */
+    background: #e4f5fc; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #e4f5fc 0%, #9fd8ef 0%, #bfe8f9 21%, #2ab0ed 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover,  #e4f5fc 0%,#9fd8ef 0%,#bfe8f9 21%,#2ab0ed 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center,  #e4f5fc 0%,#9fd8ef 0%,#bfe8f9 21%,#2ab0ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
 
@@ -91,7 +92,7 @@ aside {
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
-        &:focus {
+            &:focus {
             color: darken($theme-primary, 10%);
         }
     }
@@ -125,14 +126,14 @@ aside {
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
             &:hover,
-            &:focus {
+                &:focus {
                 color: white;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
             color: rgba(white, .7);
-            &:hover {
+            &:hover, &.active {
                 color: white;
             }
         }
@@ -143,7 +144,7 @@ aside {
                 color: $theme-dark;
                 font-size: 14px;
                 &:hover,
-                &:focus {
+                    &:focus {
                     color: darken($theme-primary, 10%);
                 }
             }
@@ -359,4 +360,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-

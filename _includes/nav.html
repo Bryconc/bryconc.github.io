@@ -14,12 +14,14 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="about.html">About</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="projects.html">Projects</a>
-                </li>
+                {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+                {% for p in navigation_pages %}
+                    {% if p.navigation_weight %}
+                    <li>
+                        <a class="page-scroll{% if page.url == p.url%} active{% endif %}" href="{{ p.url }}"> {{ p.title }}</a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
