@@ -1,5 +1,5 @@
 <div class="container">
-    <section class="primary_bg">
+    <div class="primary_bg">
         <h2>Blog Posts</h2>
         <p class="meta">These blogs were written for my CS4100 Senior Seminar class. The class fulfilled the university requirement for a
             fourth year English class, and focused primarily on speaking and writing ethical analysis. These blogs will serve as a
@@ -13,7 +13,7 @@
                 </tr>
             </thead>
             <tbody>
-                {% for post in site.posts %}
+                {% for post in site.posts reversed%}
                 <tr>
                     <td>
                         <a href="{{ post.url }}">
