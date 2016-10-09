@@ -33,5 +33,6 @@ them the painfulness of that truth. Establishing a universal theory of ethics is
 
 <figure>
     <img alt="Personal Ethics sign." src="{{site.baseurl}}/img/blog_pics/Personal_Ethics.jpg">
-    <figcaption>Personal Ethics sign. It shows how a deontological (Kantian) approach works - there is no gray area, only finites.</figcaption>
+    <figcaption>Personal Ethics sign. It shows how a deontological (Kantian) approach works - there is no gray area, only finites. Image provided by
+    <a href="http://businessethicscases.blogspot.com/2015/11/at-unlimited-data-or-unlimited-profits.html">businessethicscases.blogspot.com</a></figcaption>
 </figure>
