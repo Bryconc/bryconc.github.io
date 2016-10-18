@@ -1,0 +1,22 @@
+/* 
+    Created on : Oct 17, 2016, 8:08:57 PM
+    Author     : bcarp
+*/
+
+.project-post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-post figcaption {
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.project-post-section {
+    border-top: black solid 1px;
+    padding: 0px;
+}
