@@ -13,7 +13,7 @@ thumbnail: Personal_Ethics.jpg
 
 <hr>
 
-Defining my personal system of ethics... You certainly didn't choose an easy topic for an improve speaking exercise. I find it so difficult to nail down an
+Defining my personal system of ethics... You certainly didn't choose an easy topic for an improv speaking exercise. I find it so difficult to nail down an
 abstract concept of my ethical process, because I feel like my ethical choices are highly situational. To add unto that I (as well as most people I would assume)
 don't actively recognize a thought process when making an ethical judgement. These concepts have become so ingrained in us that it's really just a knee-jerk
 reaction. Which, now that I put it into words, seems highly dangerous; we value our ethical beliefs so highly, but we can't even define a logical process to them
