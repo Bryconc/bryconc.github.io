@@ -37,3 +37,9 @@
 .post_preview th, .post_preview td {
     text-align: center;
 }
+
+.youtubeVideo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

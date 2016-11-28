@@ -23,6 +23,6 @@ Little can be said for the response of Donald Trump, other than it might one of 
 The discussion then devolves into a secondary discussion, which diverts far away from the original question posed. This debate was a massive sham. With terrible candidates and a poor mediator, we could really expect nothing less, as the country watches in agony. The media is more concerned with these personal attacks and mannerisms, instead of actual policies or beliefs. 
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/R9GSJUAuFfE" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R9GSJUAuFfE" frameborder="0" class="youtubeVideo" allowfullscreen></iframe>
     <figcaption>Presidential Debate Highlights | Donald Trump and Hillary Clinton the presidential nominees discuss cyberattacks on U.S. intelligence. </figcaption>
 </figure>
