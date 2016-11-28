@@ -21,7 +21,7 @@ Getting to hear him talk about his time as a Disney Imagineer was very nice, esp
 Probably the part that appealed to me the most was his course in virtual reality programming that he had created. Watching the creativity of students take control and drive the success of the class was very inspiring. I only wish that I get to participate in something of that likeness in years to come. I have always appreciated classes that were goal-driven, instead of a broad discussion course. Getting to work with others of a wide skill set, instead of focuses all in programming, would be an amazing experience. It was incredible to see the creations that students had come up with, even if they were a little creepy. Still, it brought something that most computer science classes lack in my opinion: passion.
 
 <figure>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ji5_MqicxSo" frameborder="0 class="youtubeVideo" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ji5_MqicxSo" frameborder="0" class="youtubeVideo" allowfullscreen></iframe>
     <figcaption>Carnegie Mellon Professor Randy Pausch (Oct. 23, 1960 - July 25, 2008) gave his last lecture at the university Sept. 18, 2007, before a packed McConomy Auditorium. In his moving presentation, "Really Achieving Your Childhood Dreams," Pausch talked about his lessons learned and gave advice to students on how to achieve their own career and personal goals. </figcaption>
 </figure>
 
